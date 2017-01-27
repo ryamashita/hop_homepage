@@ -115,6 +115,9 @@ p.title-topmargin {
     margin: 10px;
 }
 
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff !important;
+}
 
 
 
