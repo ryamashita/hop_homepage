@@ -76,7 +76,6 @@ p.title-topmargin {
 .page-header {
 	color: #838b8b;
     padding-bottom: 10px;
-	padding-left: 30px;
     margin: 10px 0 20px;
     border-bottom: 1px solid #eee;
     font-size: 28px;
@@ -87,7 +86,6 @@ p.title-topmargin {
 	color: #838b8b;
 	padding-top: 30px;
     padding-bottom: 10px;
-	padding-left: 30px;
     margin: 10px 0 20px;
     border-bottom: 1px solid #eee;
     font-size: 28px;
@@ -97,22 +95,17 @@ p.title-topmargin {
 .page-paragraph {
     color: #838b8b;
     padding-bottom: 0px;
-    padding-left: 30px;
-    margin: 10px 0 0px;
     font-size: 20px;
 }
 
 .page-paragraph-main {
 	color: #838b8b;
     padding-bottom: 10px;
-	padding-left: 30px;
-    margin: 10px 0 20px;
     font-size: 24px;
 }
 
 .page-image {
 	border-radius: 10px;
-    margin: 10px;
 }
 
 
