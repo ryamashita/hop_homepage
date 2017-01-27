@@ -115,8 +115,14 @@ p.title-topmargin {
     margin: 10px;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    color: #fff !important;
+
+@media screen and (max-width: 768px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff !important;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:link {
+        color: #fff !important;
+    }   
 }
 
 
