@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-inverse {
+	background-color: #FFA500;
+    border-color: #FFA500;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #D3D3D3;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #D3D3D3;
+    background-color: #fff;
+}
+
+h1.title-header {
+	font-size: 64px !important;
+	color: #FFA500;
+}
+
+p.title-header {
+	font-size: 28px !important;
+	color: #FFA500;
+}
+
+p.title-topmargin {
+	margin-top: 30px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 36px;
+    line-height: 20px;
+}
+
+.page-header {
+	color: #838b8b;
+    padding-bottom: 10px;
+	padding-left: 30px;
+    margin: 10px 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 28px;
+    clear: left;
+}
+
+.page-header-second {
+	color: #838b8b;
+	padding-top: 30px;
+    padding-bottom: 10px;
+	padding-left: 30px;
+    margin: 10px 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 28px;
+    clear: left;
+}
+
+.page-paragraph {
+    color: #838b8b;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin: 10px 0 0px;
+    font-size: 20px;
+}
+
+.page-paragraph-main {
+	color: #838b8b;
+    padding-bottom: 10px;
+	padding-left: 30px;
+    margin: 10px 0 20px;
+    font-size: 24px;
+}
+
+.page-image {
+	border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
