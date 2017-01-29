@@ -111,7 +111,7 @@ p.title-topmargin {
 .page-paragraph-header {
     color: #838b8b;
     padding-bottom: 0px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .page-paragraph {
@@ -130,7 +130,7 @@ p.title-topmargin {
     color: #838b8b;
     padding-bottom: 0px;
     margin-top: 70px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .page-paragraph-main {
@@ -196,6 +196,8 @@ th {
     text-align: left;
     padding: 10px;
     font-weight: normal;
+    color: #838b8b;
+    font-size: 20px;
 }
 
 td.t_top {
@@ -206,6 +208,8 @@ td {
     border-bottom: #e3e3e3 1px dotted;
     text-align: left;
     padding: 10px;
+    color: #838b8b;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
