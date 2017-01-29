@@ -91,11 +91,18 @@ p.title-topmargin {
     clear: left;
 }
 
+.page-header-table {
+    color: #838b8b;
+    margin: 10px 0;
+    font-size: 28px;
+    clear: left;
+}
+
 .page-header-second {
 	color: #838b8b;
 	padding-top: 30px;
     padding-bottom: 10px;
-    margin: 10px 0 20px;
+    margin: 10px 0 10px;
     border-bottom: 1px solid #eee;
     font-size: 28px;
     clear: left;
@@ -111,6 +118,19 @@ p.title-topmargin {
     color: #838b8b;
     padding-bottom: 0px;
     font-size: 20px;
+}
+
+.page-paragraph-strong {
+    color: #838b8b;
+    padding-bottom: 0px;
+    font-size: 24px;
+}
+
+.page-paragraph-staff {
+    color: #838b8b;
+    padding-bottom: 0px;
+    margin-top: 70px;
+    font-size: 16px;
 }
 
 .page-paragraph-main {
@@ -140,6 +160,7 @@ p.title-topmargin {
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
  
@@ -153,10 +174,44 @@ p.title-topmargin {
     height: 100%;
 }
 
+.float-left {
+    clear: left;
+}
+
 .well {
     clear: left;
 }
 
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+th.t_top {
+    border-top: #FFA500 4px solid;
+}
+
+th {
+    border-bottom: #e3e3e3 1px dotted;
+    text-align: left;
+    padding: 10px;
+    font-weight: normal;
+}
+
+td.t_top {
+    border-top: #b3b3b3 4px solid;
+}
+
+td {
+    border-bottom: #e3e3e3 1px dotted;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:hover {
+    background: #3D80DF;
+    color: #FFFFFF;
+}
 
 @media screen and (max-width: 768px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
