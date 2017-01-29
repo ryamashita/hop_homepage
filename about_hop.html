@@ -110,28 +110,48 @@
             <div class="col-md-8">
                 
                 <h1 class="page-header">
-                    <strong>○営業開始：2017年6月予定</strong>
+                    <strong>○事業所概要</strong>
                 </h1>
 
-                <h1 class="page-header-second">
-                    <strong>○方針</strong>
-                </h1>
-                <p class="page-paragraph">安心して自宅で過ごしたいという皆様の思いをかなえるために専門的な知識を持った看護師がケアさせていただきます。<br>
-                (自宅とは自分の家だけでなく、住み慣れた自分の存在する場所をいいます。) </p>
-                <p class="page-paragraph text-center">
-                <strong>「ほっ」とする「ぷ（プ）」ロの技術をご自宅に  </strong>                  
+                <p class="page-paragraph">
+                事業所：訪問看護ステーションほっぷ設立準備室<br>
+                住所　：〒620-0063 京都府福知山市荒河新町82番地<br>
+                設立準備室長：中村洋子<br>
+                携帯電話番号：080－6175－3847<br>
+                ファックス　：0773－21－4389<br>
                 </p>
-                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                    <img class="img-responsive page-image" src="https://res.cloudinary.com/hogj88pk3/image/upload/v1485517287/hospice-1797305_1280_iiotg2.jpg" alt="">          
-                </div>
- 
-                <h1 class="page-header-second">
-                    <strong>○訪問エリア：福知山市内予定（内容により相談可）</strong>
-                </h1>
-                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                    <img class="img-responsive page-image" src="https://res.cloudinary.com/hogj88pk3/image/upload/v1485613912/fukuchiyama_city_ckz7sd.png" alt="">                      
-                </div>
                 
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <div id="map"></div>        
+                </div>
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <div id="street_view"></div>    
+                </div>
+                <script>
+                      var map;
+                      var marker;
+                      var panorama;
+                      var infoWindow;
+                      function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                          center: new google.maps.LatLng(35.311509, 135.110531),
+                          zoom: 15
+                        });
+                        marker = new google.maps.Marker({
+                          position: new google.maps.LatLng(35.311509, 135.110531),
+                          title: "ほっぷ",
+                        });
+                        marker.setMap(map);
+                        panorama = new google.maps.StreetViewPanorama(document.getElementById('street_view'), {
+                          position: {lat: 35.311509, lng:135.110531},
+                          pov: {heading: 165, pitch: 0},
+                          zoom: 1
+                        });
+                        map.setStreetView(panorama);
+                      }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEdVpz6KPfVGoee5SJzviLrbDK0Rmo8pw&callback=initMap"></script>
+
             </div>
 
             <!-- Blog Sidebar Widgets Column -->
@@ -198,7 +218,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 
 
 </body>
