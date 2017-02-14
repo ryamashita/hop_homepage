@@ -74,6 +74,10 @@ p.title-topmargin {
     margin-bottom: 10px;
 }
 
+.top-margin-40 {
+    margin-top: 40px;
+}
+
 .navbar-brand {
     float: left;
     height: 50px;
