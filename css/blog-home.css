@@ -111,7 +111,7 @@ p.title-topmargin {
 .page-paragraph-header {
     color: #838b8b;
     padding-bottom: 0px;
-    font-size: 24px;
+    font-size: 24px !important;
 }
 
 .page-paragraph {
