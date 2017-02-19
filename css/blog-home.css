@@ -120,6 +120,13 @@ p.title-topmargin {
     font-size: 20px;
 }
 
+.page-paragraph-margin-top {
+    color: #838b8b;
+    padding-bottom: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 .page-paragraph-strong {
     color: #838b8b;
     padding-bottom: 0px;
