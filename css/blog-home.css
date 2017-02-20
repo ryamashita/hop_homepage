@@ -126,6 +126,13 @@ p.title-topmargin {
     font-size: 20px;
 }
 
+.page-paragraph-service {
+    color: #333;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
 .page-paragraph-staff {
     color: #333;
     padding-bottom: 0px;
